@@ -31,7 +31,7 @@ You can use it in model like any other eloquent relation.</p>
 
  and you want to get all the pincodes of the state to which city belong. You can easily do this with belongsToManyThrough
 
-<p>* note You can do this simply by using $city->state->pincodes but I tried to implement custom 
+<p>* note You can do this simply by using existing eloquent relations like "$city->state->pincodes"  but I tried to implement custom 
 eloquent relation to do the same task in order to understand them better.
     
 It's definitely not a good approach consider it only for learning purpose to understand Laravel eloquent relations better. </p>
