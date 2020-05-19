@@ -1,5 +1,4 @@
 # Relations
-* This repository is created for learning purpose only
 
 <p> This repository contains custom eloquent relations implemented in Laravel  </p>
 <p>Currently threre is only one relation called Belongs To Mnany Through.
